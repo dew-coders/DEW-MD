@@ -1,0 +1,25 @@
+{
+  "bot-name": "DEW-MD",
+  "description": "Javascript WhatsApp bot made by Hansa Dewmina",
+  "logo": "https://i.ibb.co/Ndgc0qdm/DEW-MD-V6.jpg",
+  "keywords": ["bot","Dew-MD","Hansa Dewmina","Dew-Coders"],
+  "documentation-link": "https://bots.srihub.store/#main-bot",
+  "owner-verification": "mullertech001@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put session id",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Bot command prefix, (e.g, . , ! @ etc",
+      "value": ".",
+      "required": true  
+    },
+    "API_KEY": {
+      "description": "Add Api Key Form Session Site",
+      "value": "dew_abcd**",
+      "required": false
+    }
+  }
+}
