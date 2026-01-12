@@ -1,0 +1,26 @@
+{
+  "name": "DEW-MD",
+  "description": "Javascript WhatsApp bot made by Hansa Dewmina",
+  "logo": "https://i.ibb.co/Jwry6gGh/DEW-MD.png",
+  "keywords": ["bot","DEW-MD","Hansa Dewmina"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the session-id here.",
+        "required": true
+    },
+
+    "API_KEY": {
+        "description": "Put The Api Key From Main Site Here",
+        "required": false
+    } 
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
